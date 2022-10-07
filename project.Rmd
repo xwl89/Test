@@ -1,0 +1,13 @@
+---
+title: 'Project EDA'
+format: 
+  docx:
+    fig-format: retina
+---
+
+```{r, message=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+data("penguins", package = "palmerpenguins")
+```
+
